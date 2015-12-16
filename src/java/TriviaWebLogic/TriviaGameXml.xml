@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<triviaGame>
+    <category name="Movies">
+        <question text="Who is the star in the movie Air Force 1?">
+            <answer text="Harrison Ford">
+                <isTrue>true</isTrue>
+            </answer>
+            <difficulty>1</difficulty>
+            <isOpen>true</isOpen>
+        </question>
+       <question text="What did Forrest Gump sell that made him rich?">
+            <answer text="Shrimp">
+                <isTrue>true</isTrue>
+            </answer>
+            <difficulty>2</difficulty>
+            <isOpen>true</isOpen>
+        </question>
+     <question text="What movie made Oshri Cohen famous?">
+            <answer text="Shlomi's Stars">
+                <isTrue>true</isTrue>
+            </answer>
+            <difficulty>3</difficulty>
+            <isOpen>true</isOpen>
+        </question>
+       <question text="Was Jackie Chan a background actor in a Bruce Lee movie?">
+            <answer text="Yes">
+                <isTrue>true</isTrue>
+            </answer>
+            <answer text="No">
+                <isTrue>false</isTrue>
+            </answer>
+            <difficulty>1</difficulty>
+            <isOpen>false</isOpen>
+        </question>
+         <question text="Which movie has a character named Mushu?">
+            <answer text="Aladin">
+                <isTrue>false</isTrue>
+            </answer>
+            <answer text="Pocahontas">
+                <isTrue>false</isTrue>
+            </answer>
+            <answer text="Mulan">
+                <isTrue>true</isTrue>
+            </answer>
+            <difficulty>2</difficulty>
+            <isOpen>false</isOpen>
+        </question>
+         <question text="Beaufort plot took place in...">
+            <answer text="Lebanon">
+                <isTrue>true</isTrue>
+            </answer>
+            <answer text="Egypt">
+                <isTrue>false</isTrue>
+            </answer>
+            <answer text="Jordan">
+                <isTrue>false</isTrue>
+            </answer>
+            <difficulty>3</difficulty>
+            <isOpen>false</isOpen>
+        </question>
+    </category>
+    <category name="History">
+         <question text="Which city in Israel, is named after the Roman emperor Tiberius">
+            <answer text="Tveria">
+                <isTrue>true</isTrue>
+            </answer>
+            <difficulty>1</difficulty>
+            <isOpen>true</isOpen>
+        </question>
+            <question text="Smart Greek considered the father of the theory of geometry">            
+            <answer text="Euklides">
+                <isTrue>true</isTrue>
+            </answer>
+            <difficulty>2</difficulty>
+            <isOpen>true</isOpen>
+        </question>
+            <question text="The nickname of the Russian Communist Party members before the party came to power">
+            <answer text="Bolsheviks">
+                <isTrue>true</isTrue>
+            </answer>
+            <difficulty>3</difficulty>
+            <isOpen>true</isOpen>
+        </question>
+            <question text="Was Israel bacame country in 1948?">
+            <answer text="Yes">
+                <isTrue>true</isTrue>
+            </answer>
+            <answer text="No">
+                <isTrue>false</isTrue>
+            </answer>
+            <difficulty>1</difficulty>
+            <isOpen>false</isOpen>
+        </question>
+        <question text="The name of the first russian ship in space?">
+        <answer text="Sputnik">
+                <isTrue>true</isTrue>
+            </answer>
+            <answer text="Parom">
+                <isTrue>false</isTrue>
+            </answer>
+            <answer text="Columbia">
+                <isTrue>false</isTrue>
+            </answer>
+            <difficulty>3</difficulty>
+            <isOpen>false</isOpen>
+        </question>
+    </category>
+</triviaGame>
