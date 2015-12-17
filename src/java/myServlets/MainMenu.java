@@ -55,7 +55,7 @@ public class MainMenu extends HttpServlet {
         out.print("<a href='MoreGames?fName="+request.getParameter("fName")+"&lName="+request.getParameter("lName")+"'>More games</a><br />");
         out.print("<a href='MainMenu?fName="+request.getParameter("fName")+"&lName="+request.getParameter("lName")+"'> Game main menu </a><br /></div>");       
         
-        out.print("<div style='margin-right:6cm'><center>Choose one of the following:<br />");
+        out.print("<div style='margin-right:6cm'><center>Choose one of the following:<br /><br>");
         out.print("<a href='PlayGame?fName="+fname+"&lName="+lname+"'> Start playing</a><br />");
         out.print("<a href='AddQuestion?fName="+fname+"&lName="+lname+"'> Add a new Trivia question</a><br />");
         out.print("<a href='DeleteQuestion?fName="+fname+"&lName="+lname+"'>Delete a Trivia question</a><br />");

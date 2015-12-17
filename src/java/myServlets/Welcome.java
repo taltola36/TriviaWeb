@@ -37,31 +37,31 @@ public class Welcome extends HttpServlet {
         out.print("<div style=height:5%;width:10%;float:top'>");
         out.print("<img src='http://www.smartlabtoys.com/media/chalkboard/chalkboard-trivia-overlay.png' style='width:300px;height:80px'></div>");
 
-        if (request.getParameter("fName").equals(request.getParameter("lName")) || request.getParameter("fName").equals("") || request.getParameter("lName").equals("")) {    
+        if (request.getParameter("fName").equals("") || request.getParameter("lName").equals("")) {    
             out.print("<body style='background-color:darkseagreen; font-family: Times New Roman; font-size:120%'>");
-            out.print("<div style='color:red; font-size:170%;font-family: Times New Roman;'><center><h1><b>Error</b></h1></center></div>");
+            out.print("<div style='color:red; font-size:170%;font-family: Times New Roman;'><center><h1><b>"
+                    + "Error</b></h1></center></div>");
             out.print("<p><font size='5'><center>Something went wrong.<br> Please login with your first name and last name.</center></p>");
             out.print("<p><center><form action='index.jsp'><input type='submit' name='backToLogin' value='back' style='width:80px; font-size:16px'></form></center></p>");
         }
         else {        
-            out.print("<body style='background-color:lightgoldenrodyellow; font-family: Times New Roman; font-size:110%'>");
-            out.print("<div style='font-size:25px;margin-top: -0.5cm;margin-right:1cm;float:right'>Hello, "+request.getParameter("fName")+" "+request.getParameter("lName")  +"</div>");
+            out.print("<body style='background-color:lightgoldenrodyellow; font-family: Times New Roman; font-size:145%'>");
+            out.print("<div style='font-size:25px;margin-top: -0.5cm;margin-right:1cm;float:right'>Hello, "
+                    +request.getParameter("fName")+" "+request.getParameter("lName")  +"</div>");
 //            if (request.getParameterMap().containsKey("Remember")) {
 //                use cookies somehow to remember next time
 //            }
-            out.print("<div style='color:darkgreen; font-size:200%;font-family: Times New Roman;'><center><h1><b>Trivia Game</b></h1></center></div>");
-            out.print("<div style='background-color:darkseagreen;height:70%;width:17%;float:left;font-size:130%'>");
+            out.print("<div style='color:darkgreen; font-size:150%;font-family: Times New Roman;'><center><h1><b>Trivia Game</b></h1></center></div>");
+            out.print("<div style='background-color:darkseagreen;height:68%;width:16.7%;float:left;font-size:100%'>");
             out.print("<h1><b> Main Menu</b></h1>");
             out.print("<a href='AboutUs?fName="+request.getParameter("fName")+"&lName="+request.getParameter("lName")+"'> About us </a><br />");               
             out.print("<a href='MoreGames?fName="+request.getParameter("fName")+"&lName="+request.getParameter("lName")+"'>More games</a><br />");
             out.print("<a href='MainMenu?fName="+request.getParameter("fName")+"&lName="+request.getParameter("lName")+"'> Game main menu </a><br /></div>");
             
-            out.print("<div style='font-size:23px;margin-right:6cm'><center>Blah<br />   Blah blah<br />Blah blah blah <br />");
+            out.print("<div style='font-size:23px;margin-right:6cm'><center>Blah<br />   Blah blah<br />Blah blah blah <br /></div>");
 
-            out.print("<div style='background-color:darkgreen;font-size:75%;height:7%;clear:both'>");
-            out.print("<center><h1>Copyright 2015 AvitalTal</h1></center></div></body></html>");
-            //}
-          
+            out.print("<div style='background-color:darkgreen;font-size:75%;height:5%;clear:both>");
+            out.print("<center><h1>Copyright 2015 AvitalTal</h1></center></div></div></body></html>");          
             
         }
                 

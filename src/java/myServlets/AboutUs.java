@@ -39,7 +39,7 @@ public class AboutUs extends HttpServlet {
         out.print("<div style='font-size:25px;margin-top: -0.5cm;margin-right:1cm;float:right'>Hello, "+request.getParameter("fName")+" "+request.getParameter("lName")  +"</div>");
         out.print("<div style='color:darkgreen; font-size:150%;font-family: Times New Roman'>");
         out.print("<center><h1><b>About Us</b></h1></center></div>");
-        out.print("<div style='background-color:darkseagreen;height:70%;width:17%;float:left;font-size:100%'>");
+        out.print("<div style='background-color:darkseagreen;height:68%;width:17%;float:left;font-size:100%'>");
         out.print("<h1><b> Main Menu</b></h1>");
         out.print("<a href='AboutUs?fName="+request.getParameter("fName")+"&lName="+request.getParameter("lName")+"'> About us </a><br />");               
         out.print("<a href='MoreGames?fName="+request.getParameter("fName")+"&lName="+request.getParameter("lName")+"'>More games</a><br />");

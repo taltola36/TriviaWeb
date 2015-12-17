@@ -12,7 +12,7 @@
         <link rel="shortcut icon" href="http://www.smartlabtoys.com/media/chalkboard/chalkboard-trivia-overlay.png">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
-    <body style="background-color:lightgoldenrodyellow; font-size:120%; font-family: Times New Roman">       
+    <body style="background-color:lightgoldenrodyellow; font-size:122%; font-family: Times New Roman">       
         <div style="background-color: lightgoldenrodyellow; height:5%;width:10%;float:top">
             <img src="http://www.smartlabtoys.com/media/chalkboard/chalkboard-trivia-overlay.png" style="width:300px;height:80px">
         </div>   
